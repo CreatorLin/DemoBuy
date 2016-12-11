@@ -256,6 +256,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
+    <Compile Include="Seller\Tkec\OnTimeSale.cs" />
     <Compile Include="Seller\Yahoo\BustBuy.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
