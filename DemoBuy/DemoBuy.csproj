@@ -262,6 +262,7 @@
     <Compile Include="Seller\SellerEnum.cs" />
     <Compile Include="Seller\Tkec\OnTimeSale.cs" />
     <Compile Include="Seller\Yahoo\BestBuy.cs" />
+    <Compile Include="Seller\Yahoo\YahooSeller.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
