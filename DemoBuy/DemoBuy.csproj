@@ -243,6 +243,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\NowApiModel.cs" />
+    <Compile Include="Models\ProductApiModel.cs" />
     <Compile Include="Seller\Pchome\Welcome.cs" />
     <Compile Include="Seller\Pchome\Onsale.cs" />
     <Compile Include="Seller\Pchome\Prdo.cs" />
