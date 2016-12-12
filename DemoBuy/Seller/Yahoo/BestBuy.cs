@@ -1,6 +1,6 @@
 ﻿namespace DemoBuy.Seller.Yahoo
 {
-    public class BustBuy
+    public class BestBuy
     {
         public string Href { get; set; }
         public string Alt { get; set; }
