@@ -39,7 +39,8 @@ namespace DemoBuy.Seller.Tkec
         {
             try
             {
-                return node.SelectNodes(@"//div[@class='item01_on']").Select(p => p.ParentNode.Attributes["href"].Value).ToArray();
+                const string URL = "http://www.tkec.com.tw/";
+                return node.SelectNodes(@"//div[@class='item01_on']").Select(p => $"{URL}{p.ParentNode.Attributes["href"].Value.Substring(3)}").ToArray();
             }
             catch (Exception)
             {
