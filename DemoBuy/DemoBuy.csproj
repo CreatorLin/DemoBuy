@@ -261,6 +261,7 @@
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Seller\SellerEnum.cs" />
     <Compile Include="Seller\Tkec\OnTimeSale.cs" />
+    <Compile Include="Seller\Tkec\TkecSeller.cs" />
     <Compile Include="Seller\Yahoo\BestBuy.cs" />
     <Compile Include="Seller\Yahoo\YahooSeller.cs" />
     <Compile Include="Startup.cs" />
