@@ -264,6 +264,7 @@
     <Compile Include="Seller\Tkec\TkecSeller.cs" />
     <Compile Include="Seller\Yahoo\BestBuy.cs" />
     <Compile Include="Seller\Yahoo\YahooSeller.cs" />
+    <Compile Include="Services\SellerService.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
